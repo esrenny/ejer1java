@@ -1,0 +1,64 @@
+package tema1;
+
+public class ejercicio {
+
+    /**
+     * Enunciado del ejercicio:
+     *
+     * Para este primer ejercicio tendréis que realizar lo siguiente:
+     *
+     * Crea un proyecto de Java desde 0
+     *
+     * Dentro del proyecto tenéis que crear un paquete. En el paquete tendreis que crear una clase.
+     *
+     * Dentro de la clase tenéis que crear el método main e imprimir todos los datos que se han visto
+     * en las sesiones.
+     *
+     * Recordatorio: Los tipos de datos más comunes son int, long, double, boolean, String.
+     * @param args
+     */
+    public static void main(String[] args) {
+       //enteros
+       byte entero1=3; // 1 byte
+       short entero2= 25; // 2 byte
+       int entero3= 102; // 4 byte
+       long entero4= 12345; // 8 byte
+
+       // punto flotante
+       float decimal1= 532.56f;
+       double decimal2 = 1236.856d;
+
+       //caracter
+        char caracter1= 'w';
+
+        //booleano
+        boolean verdadero=true;
+        boolean falso=false;
+
+        //cadena de texto
+        String nombre= "Renny Vivas";
+
+        System.out.println("Tipos de datos");
+        System.out.println("Enteros");
+        System.out.println("byte " + entero1);
+        System.out.println("short " + entero2);
+        System.out.println("int " + entero3);
+        System.out.println("long " + entero4);
+
+        System.out.println("Punto Flotante");
+        System.out.println("float " + decimal1);
+        System.out.println("double " + decimal2);
+
+        System.out.println("Caracter");
+        System.out.println("char " + caracter1);
+
+        System.out.println("Booleano");
+        System.out.println("verdadero " + verdadero);
+        System.out.println("falso " + falso);
+
+        System.out.println("Cadena de texto");
+        System.out.println("Mi nombre es " +nombre );
+
+
+    }
+}
